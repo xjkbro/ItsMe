@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web:200,300,400,600,700,900");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+body #showcase {
+  height: 800px;
+  -webkit-clip-path: polygon(100% 0, 100% 80%, 62% 100%, 0 80%, 0 0);
+          clip-path: polygon(100% 0, 100% 80%, 62% 100%, 0 80%, 0 0);
+  background-image: url("../assets/showcase.jpg");
+  background-size: cover;
+  color: #ccc;
+}
+
+body #showcase #navigation {
+  text-align: center;
+}
+
+body #showcase #navigation a {
+  text-decoration: none;
+  -webkit-text-decoration-color: #ccc;
+          text-decoration-color: #ccc;
+  color: #ccc;
+  padding: 30px 10px;
+  display: inline-block;
+  margin: 10px auto;
+}
+
+body #showcase #identity {
+  width: 480px;
+  position: absolute;
+  top: 25%;
+  left: 15%;
+}
+
+body #showcase #identity h1 {
+  font-size: 100px;
+  letter-spacing: 5px;
+  line-height: 0.8em;
+}
+
+body #showcase #identity #firstName {
+  font-weight: 100;
+}
+
+body #showcase #identity #lastName {
+  font-weight: 900;
+}
+
+body #showcase #identity br {
+  padding: 5px 0 0 0;
+  color: #ccc;
+  width: inherit;
+}
+
+body #showcase #identity #occupation {
+  padding: 10px 0;
+}
+/*# sourceMappingURL=style.css.map */
